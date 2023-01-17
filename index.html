@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="javascript/funciones.js"></script>
+
+    <title id="titulo">Proyecto CV</title>
+</head>
+
+<body id="cuerpo">
+    <nav id="barraNav" class="navbar navbar-dark bg-dark">
+        <button type="button" id="bo01" onclick="modoOscuro()">Modo Oscuro</button>
+        <button type="button" id="bo02" onclick="modoClaro()">Modo Claro</button>
+
+        <select id="selectorIdioma" name="Idioma" onchange="alternarIdiomas()">
+            <option name="Español" value="español" onchange="alternarIdiomas()" selected>Español</option>
+            <option name="English" value="english" onchange="alternarIdiomas()">English</option>
+        </select>
+
+    </nav>
+
+    <button type="button" id="bo03" style="margin-left: 10px; margin-top: 10px"
+        onclick="ocultarTexto()">Ocultar</button>
+    <p id="indicadorIdioma" style="font-size: 15px; margin-left: 20px; margin-top: 5px">
+        Idioma: Español.
+    </p>
+
+    <div style="text-align: center;">
+        <a><img src="https://randomuser.me/api/portraits/men/49.jpg" alt="ChadPena" id="im01" class="borde"></a>
+    </div>
+
+    <div id="co01" class="contenedor" style="text-align: center;">
+        <p id="pa01">Apellido: Pena</p>
+        <p id="pa02">Nombre: Chad</p>
+        <p id="pa03">E-mail: chad.pena@example.com</p>
+        <p id="pa04">Fecha de nacimiento: 4/6/1987</p>
+        <p id="pa05">Domicilio: 2022 Oak Lawn Ave</p>
+        <p id="pa06">Teléfono: (874) 777-5582</p>
+    </div>
+    <div></div>
+
+    <div id="co02" class="contenedor">
+        <p id="ti01" class="titulo">Resumen</p>
+        <p id="pa07" class="textoEnContenedor">
+            Soy un trabajador duro, con interés en producción y ventas. Mis conocimentos más desarrollados
+            se centran en productividad y capacitación.
+        </p>
+    </div>
+    <div></div>
+
+    <div id="co03" class="contenedor">
+        <p id="ti02" class="titulo">Experiencia Laboral</p>
+        <p id="pa08" class="textoEnContenedor">Alliance - Manager de Proyectos y Asociado de Ventas
+            (2017-actualidad)
+        </p>
+        <ul>
+            <li id="li01">
+                Logré una estrategia a mediano plazo para incrementar la rentabilidad en el área de management de
+                proyectos; generando herramientas orientadas al comercio con 13 diferentes estados.
+            </li>
+
+            <li id="li02">
+                Lideré un equipo de 50 personas y llevé a la empresa al top 25 de las empresas líderes del
+                país en 2019, incrementando el número de stakeholders en un 40%.
+            </li>
+
+            <li id="li03">
+                Organicé campañas de marketing, incrementando la productividad de la empresa en su totalidad.
+                Trabajé con el departamento de publicidades para definir el target demográfico de mas de 25
+                productos y los atributos esperados, complementarios y potenciales que los clientes esperan en
+                cada uno de estos.
+            </li>
+
+            <li id="li04">
+                Capacité a 12 estudiantes en 2 eventos, para múltiples equipos de trabajo.
+            </li>
+
+            <li id="li05">
+                Incrementé las utilidades de la empresa en un 500% en 5 años.
+            </li>
+        </ul>
+
+        <div></div>
+
+        <p id="pa09" class="textoEnContenedor">Social American - Oficina Frontal (2010-2017)</p>
+        <ul>
+            <li id="li06">
+                Manejé 20 emprendimientos con consultantes de marketing.
+            </li>
+            <li id="li07">
+                Participé con un equipo de 10 ingenieros, incrementando la productividad anual.
+            </li>
+            <li id="li08">
+                Desarrollé cuatro nuevos proyectos privados en 2 mercados internacionales.
+            </li>
+            <li id="li09">
+                Evalué 5 proyectos de elevada magnitud en 2016.
+            </li>
+            <li id="li10">
+                Desarrollé e implementé un contrato a 5 años con un estimado de 300 empleados.
+            </li>
+        </ul>
+    </div>
+
+    <div></div>
+
+    <div id="co04" class="contenedor">
+        <p id="ti03" class="titulo">Educación</p>
+        <p id="pa10" class="textoEnContenedor">Universidad de St. Gallen - Licensiado en Marketing y
+            Comunicaciones
+            (2005-2010)</p>
+        <ul>
+            <li id="li11">
+                Graduado con honores, primera clase.
+            </li>
+            <li id="li12">
+                Estudié en el extranjero por 1 año como parte de un programa de intercambio.
+            </li>
+        </ul>
+        </p>
+    </div>
+
+    <div></div>
+
+    <div id="co05" class="contenedor">
+        <p id="ti04" class="titulo">Conocimientos, aptitudes, otros</p>
+        <ul>
+            <li id="li13">
+                Experiencia con distintos tipos de software.
+            </li>
+            <li id="li14">
+                Habilidad de trabajar en equipo y en situaciones bajo mucha presión.
+            </li>
+            <li id="li15">
+                Dominio del idioma inglés.
+            </li>
+        </ul>
+    </div>
+
+    <a href="README.md" id="linkReadme" data-hover="README.md">Más información.</a>
+</body>
+
+</html>
