@@ -8,6 +8,4 @@ La función en cuestión es bastante cruda y mucho menos automática que la de l
 
 Los datos personales del CV y la imagen utilizada provienen de (https://randomuser.me/).
 Los contenidos del CV provienen de [ThisResumeDoesNotExist](https://thisresumedoesnotexist.com/), un generador de CV por Inteligencia Artificial. El texto original fué alterado para corregir algunos detalles con el texto generado, traducido al español y re-traducido nuevamente al inglés.
-La barra de navegación fue importada mediante Bootstrap. #� �p�r�o�y�e�c�t�o�c�v�
-�
-�
+La barra de navegación fue importada mediante Bootstrap.
